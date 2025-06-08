@@ -1,5 +1,6 @@
 Flask               # Web 框架
 flask_cors
+gunicorn
 pymongo             # MongoDB 連線
 folium              # 地圖產生（互動式地圖）
 werkzeug            # WSGI 工具（Flask依賴，密碼雜湊等）
