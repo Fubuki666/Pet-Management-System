@@ -31,8 +31,8 @@ app.secret_key = 'your_secret_key'
 load_dotenv()
 
 # MongoDB Configuration
-MONGODB_URI = os.getenv('MONGODB_URI')
-MONGODB_DB = os.getenv('MONGODB_DB')
+MONGODB_URI = 'mongodb+srv://61347081s:jimsam1239096@cluster0.xrozzac.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGODB_DB = 'petdb'
 
 client = MongoClient(MONGODB_URI)
 db = client[MONGODB_DB]
